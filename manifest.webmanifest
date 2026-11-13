@@ -1,14 +1,21 @@
 {
-  "id": "/SlabLab4/",
+  "id": "/SlabLab4Desktop/",
   "name": "SlabLab",
   "short_name": "SlabLab",
   "description": "SlabLab structural slab design and Eurocode 2 learning tool. Preliminary results require independent engineering review.",
-  "start_url": "/SlabLab4/index.html",
-  "scope": "/SlabLab4/",
+  "start_url": "/SlabLab4Desktop/index.html",
+  "scope": "/SlabLab4Desktop/",
   "display": "standalone",
+  "display_override": [
+    "standalone"
+  ],
   "orientation": "any",
   "background_color": "#0A0F0D",
   "theme_color": "#0A0F0D",
+  "categories": [
+    "education",
+    "productivity"
+  ],
   "icons": [
     {
       "src": "./icon-192.png",
@@ -28,12 +35,5 @@
       "type": "image/png",
       "purpose": "maskable"
     }
-  ],
-  "display_override": [
-    "standalone"
-  ],
-  "categories": [
-    "education",
-    "productivity"
   ]
 }
